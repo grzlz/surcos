@@ -4,8 +4,14 @@
 
 
 <header class="text-center py-24 px-4 bg-gradient-to-br from-[#88378C] to-[#4F449E] text-white">
-	<h1 class="text-4xl md:text-6xl font-['Special_Gothic_Condensed_One'] mb-4">Revista Digital Surcos</h1>
-	<p class="text-lg md:text-xl">Periodismo de izquierda – Confrontativa. Inclusiva. Actual.</p>
+	<img
+		src="/header.png"
+		alt="Surcos Logo"
+		class="mx-auto mb-10 w-72 md:w-96 max-w-full h-auto"
+	/>
+	<p class="text-2xl md:text-3xl font-['DM_Sans']">
+		Periodismo de izquierda – No esa, la otra.
+	</p>
 </header>
 
 <section class="max-w-3xl mx-auto px-4 py-16 text-center">
@@ -15,3 +21,12 @@
 		política y más. Contribuimos a la transformación social con información, análisis y reflexión.
 	</p>
 </section>
+
+<footer>
+    <div class="bg-[#C44949] text-white py-8">
+        <div class="max-w-3xl mx-auto px-4">
+            <p class="text-center text-sm">© 2023 Surcos. Todos los derechos reservados.</p>
+            <p class="text-center text-sm">Desarrollado por [Tu Nombre]</p>
+        </div>
+    </div>
+</footer>
