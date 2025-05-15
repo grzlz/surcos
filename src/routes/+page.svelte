@@ -25,8 +25,7 @@
 <footer>
     <div class="bg-[#C44949] text-white py-8">
         <div class="max-w-3xl mx-auto px-4">
-            <p class="text-center text-sm">© 2023 Surcos. Todos los derechos reservados.</p>
-            <p class="text-center text-sm">Desarrollado por [Tu Nombre]</p>
+            <p class="text-center text-sm">© 2025 Surcos. Todos los derechos reservados.</p>
         </div>
     </div>
 </footer>
