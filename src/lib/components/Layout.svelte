@@ -40,13 +40,10 @@
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex justify-between items-center h-16">
 			<!-- Logo -->
-				<div class="overflow-hidden h-14 w-14 mr-3">
+				<div class="h-14 w-14 mr-3">
 					<img
 						src="/logo.png"
 						alt="Surcos Logo"
-						class="transition-all duration-1000 ease-out hover:scale-110"
-						class:translate-y-full={!visible}
-						class:translate-y-0={visible}
 					/>
 				</div>
 
