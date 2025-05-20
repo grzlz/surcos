@@ -36,22 +36,19 @@
     ];
 </script>
 
-<nav class="bg-gradient-to-r from-[#374993] to-[#4F449E] text-white shadow-md sticky top-0 z-50 backdrop-blur-sm">
+<nav class="bg-[#374993] text-white shadow-md sticky top-0 z-50 backdrop-blur-sm">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex justify-between items-center h-16">
 			<!-- Logo -->
-			<div class="flex items-center">
-				<div class="overflow-hidden h-10 w-10 mr-3">
+				<div class="overflow-hidden h-14 w-14 mr-3">
 					<img
 						src="/logo.png"
 						alt="Surcos Logo"
-						class="w-full h-auto transform transition-all duration-1000 ease-out hover:scale-110"
+						class="transition-all duration-1000 ease-out hover:scale-110"
 						class:translate-y-full={!visible}
 						class:translate-y-0={visible}
 					/>
 				</div>
-				<span class="text-xl font-semibold hidden sm:block font-['Space_Grotesk']">Surcos</span>
-			</div>
 
 			<!-- Desktop Navigation -->
 			<div class="hidden md:flex items-center space-x-6">
