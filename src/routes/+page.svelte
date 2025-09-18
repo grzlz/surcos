@@ -75,32 +75,23 @@
 	];
 </script>
 
-<section class="relative isolate overflow-hidden">
-	<div class="absolute inset-0 -z-10">
-		<div
-			class="absolute top-[-40%] left-1/2 h-[620px] w-[620px] -translate-x-1/2 rounded-full bg-[radial-gradient(circle_at_center,_rgba(196,73,73,0.28),_transparent_65%)] blur-3xl"
-		></div>
-		<div
-			class="absolute top-1/4 right-[-10%] h-[420px] w-[420px] rounded-full bg-[radial-gradient(circle_at_center,_rgba(136,55,140,0.25),_transparent_70%)] blur-3xl"
-		></div>
-		<div
-			class="absolute bottom-[-20%] left-[-15%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_at_center,_rgba(60,128,99,0.2),_transparent_70%)] blur-3xl"
-		></div>
-	</div>
+<section
+	class="relative isolate overflow-hidden bg-gradient-to-br from-[#f9f2e8] via-[#f6efe6] to-[#f2eadf]"
+>
 	<div class="mx-auto flex max-w-6xl flex-col gap-12 px-6 pt-36 pb-24 sm:px-6 lg:px-8 lg:pt-40">
 		<div class="grid items-end gap-14 lg:grid-cols-[1.25fr,0.75fr]">
 			<div class="space-y-8 text-left">
 				<span
-					class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-4 py-1 text-xs font-semibold tracking-[0.28em] text-white/70 uppercase backdrop-blur"
+					class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1 text-xs font-semibold tracking-[0.28em] text-slate-500 uppercase"
 				>
 					Nueva temporada
 				</span>
 				<h1
-					class="font-['Space_Grotesk'] text-4xl leading-tight font-semibold text-white sm:text-5xl lg:text-6xl"
+					class="font-['Space_Grotesk'] text-4xl leading-tight font-semibold text-slate-900 sm:text-5xl lg:text-6xl"
 				>
 					Periodismo que abre caminos para imaginar otros futuros posibles.
 				</h1>
-				<p class="max-w-2xl font-['DM_Sans'] text-base leading-relaxed text-white/75 sm:text-lg">
+				<p class="max-w-2xl font-['DM_Sans'] text-base leading-relaxed text-slate-600 sm:text-lg">
 					Surcos es una revista digital que explora los cruces entre justicia social, cultura,
 					política y ambiente. Historias contadas con cuidado editorial, investigación rigurosa y
 					estética audiovisual.
@@ -108,67 +99,69 @@
 				<div class="flex flex-wrap gap-4">
 					<a
 						href="/justicia"
-						class="rounded-full border border-white/20 bg-white/10 px-6 py-3 text-xs font-semibold tracking-[0.28em] text-white uppercase transition hover:border-white/40 hover:bg-white/20"
+						class="rounded-full border border-slate-900 px-6 py-3 text-xs font-semibold tracking-[0.28em] text-slate-900 uppercase transition hover:bg-slate-900 hover:text-white"
 					>
 						Explorar secciones
 					</a>
 					<a
 						href="/newsletter"
-						class="rounded-full bg-white px-6 py-3 text-xs font-semibold tracking-[0.28em] text-slate-900 uppercase transition hover:bg-slate-100"
+						class="rounded-full bg-slate-900 px-6 py-3 text-xs font-semibold tracking-[0.28em] text-white uppercase transition hover:bg-slate-700"
 					>
 						Suscribirme
 					</a>
 				</div>
 			</div>
-			<div class="space-y-6 rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
-				<span class="font-['DM_Sans'] text-xs tracking-[0.32em] text-white/60 uppercase"
+			<div
+				class="space-y-6 rounded-3xl border border-slate-200 bg-white p-8 shadow-lg shadow-slate-300/40"
+			>
+				<span class="font-['DM_Sans'] text-xs tracking-[0.32em] text-slate-500 uppercase"
 					>Últimos lanzamientos</span
 				>
 				<div class="space-y-5">
 					<div class="flex items-start gap-4">
 						<span
-							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-white/10"
+							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-slate-200"
 							style="background:#88378C1a"
 						>
 							<span class="h-2.5 w-2.5 rounded-full" style="background:#88378C"></span>
 						</span>
 						<div class="space-y-1">
-							<p class="font-['Space_Grotesk'] text-sm font-semibold text-white">
+							<p class="font-['Space_Grotesk'] text-sm font-semibold text-slate-900">
 								Dossier audiovisual: memorias del sur
 							</p>
-							<p class="font-['DM_Sans'] text-sm text-white/70">
+							<p class="font-['DM_Sans'] text-sm text-slate-600">
 								Una serie de cortos que atraviesa músicas, rituales y luchas comunitarias.
 							</p>
 						</div>
 					</div>
 					<div class="flex items-start gap-4">
 						<span
-							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-white/10"
+							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-slate-200"
 							style="background:#3C80631a"
 						>
 							<span class="h-2.5 w-2.5 rounded-full" style="background:#3C8063"></span>
 						</span>
 						<div class="space-y-1">
-							<p class="font-['Space_Grotesk'] text-sm font-semibold text-white">
+							<p class="font-['Space_Grotesk'] text-sm font-semibold text-slate-900">
 								Informe interactivo: cartografías del cuidado
 							</p>
-							<p class="font-['DM_Sans'] text-sm text-white/70">
+							<p class="font-['DM_Sans'] text-sm text-slate-600">
 								Datos, relatos y visualizaciones sobre redes feministas que sostienen la vida.
 							</p>
 						</div>
 					</div>
 					<div class="flex items-start gap-4">
 						<span
-							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-white/10"
+							class="mt-1 inline-flex h-8 w-8 items-center justify-center rounded-2xl border border-slate-200"
 							style="background:#C449491a"
 						>
 							<span class="h-2.5 w-2.5 rounded-full" style="background:#C44949"></span>
 						</span>
 						<div class="space-y-1">
-							<p class="font-['Space_Grotesk'] text-sm font-semibold text-white">
+							<p class="font-['Space_Grotesk'] text-sm font-semibold text-slate-900">
 								Newsletter quincenal
 							</p>
-							<p class="font-['DM_Sans'] text-sm text-white/70">
+							<p class="font-['DM_Sans'] text-sm text-slate-600">
 								Curaduría con lecturas recomendadas, agenda y avances de investigación.
 							</p>
 						</div>
@@ -186,15 +179,15 @@
 		>
 			<div>
 				<span
-					class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-4 py-1 text-xs font-semibold tracking-[0.28em] text-white/60 uppercase"
+					class="inline-flex items-center gap-2 rounded-full border border-slate-200 bg-white px-4 py-1 text-xs font-semibold tracking-[0.28em] text-slate-500 uppercase"
 				>
 					Nuestros ejes
 				</span>
-				<h2 class="mt-4 font-['Space_Grotesk'] text-3xl font-semibold text-white sm:text-4xl">
+				<h2 class="mt-4 font-['Space_Grotesk'] text-3xl font-semibold text-slate-900 sm:text-4xl">
 					Cinco secciones para narrar las fisuras y los deseos de una nueva época.
 				</h2>
 			</div>
-			<p class="max-w-xl font-['DM_Sans'] text-sm leading-relaxed text-white/70">
+			<p class="max-w-xl font-['DM_Sans'] text-sm leading-relaxed text-slate-600">
 				Cada texto, foto, podcast y visualización se construye junto a las comunidades
 				protagonistas. Investigamos, contamos historias y diseñamos experiencias digitales que
 				acompañan los cambios en marcha.
@@ -205,23 +198,23 @@
 			{#each sectionCards as card (card.href)}
 				<a
 					href={card.href}
-					class="group relative flex h-full flex-col justify-between rounded-3xl border border-white/10 bg-white/5 p-7 backdrop-blur-xl transition hover:-translate-y-2 hover:border-white/40 hover:bg-white/10"
-					style={`box-shadow: 0 20px 40px -25px ${card.accent}cc;`}
+					class="group relative flex h-full flex-col justify-between rounded-3xl border border-slate-200 bg-white p-7 shadow-md shadow-slate-300/30 transition hover:-translate-y-2 hover:border-slate-400 hover:shadow-xl"
+					style={`box-shadow: 0 20px 40px -25px ${card.accent}55;`}
 				>
 					<div class="space-y-5">
 						<span
-							class="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 text-xs font-medium text-white/70"
+							class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs font-medium text-slate-600"
 							style={`background:${card.accent}1a;`}
 						>
 							<span class="h-2 w-2 rounded-full" style={`background:${card.accent}`}></span>
 							{card.title}
 						</span>
-						<p class="font-['Space_Grotesk'] text-xl font-semibold text-white">
+						<p class="font-['Space_Grotesk'] text-xl font-semibold text-slate-900">
 							{card.description}
 						</p>
 					</div>
 					<span
-						class="mt-8 inline-flex items-center gap-2 font-['DM_Sans'] text-sm font-medium text-white/80 transition group-hover:gap-3 group-hover:text-white"
+						class="mt-8 inline-flex items-center gap-2 font-['DM_Sans'] text-sm font-medium text-slate-600 transition group-hover:gap-3 group-hover:text-slate-900"
 					>
 						Leer más
 						<svg
@@ -244,50 +237,52 @@
 	<div class="mx-auto max-w-6xl">
 		<div class="grid gap-12 lg:grid-cols-[1.1fr,0.9fr]">
 			<div
-				class="space-y-8 rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-white/5 to-white/10 p-10 backdrop-blur-xl"
+				class="space-y-8 rounded-3xl border border-slate-200 bg-white p-10 shadow-lg shadow-slate-300/40"
 			>
 				{#each featureHighlights as feature (feature.title)}
 					<article
-						class="rounded-3xl border border-white/10 bg-slate-950/40 p-8 transition hover:border-white/40 hover:bg-slate-950/60"
-						style={`box-shadow: 0 18px 40px -24px ${feature.accent}cc;`}
+						class="rounded-3xl border border-slate-200 bg-[#f5efe6] p-8 transition hover:-translate-y-1 hover:border-slate-400 hover:shadow-lg"
+						style={`box-shadow: 0 18px 40px -24px ${feature.accent}55;`}
 					>
 						<span
-							class="font-['DM_Sans'] text-xs tracking-[0.28em] text-white/60 uppercase"
+							class="font-['DM_Sans'] text-xs tracking-[0.28em] uppercase"
 							style={`letter-spacing:0.28em; color:${feature.accent};`}
 						>
 							{feature.eyebrow}
 						</span>
-						<h3 class="mt-4 font-['Space_Grotesk'] text-2xl font-semibold text-white sm:text-3xl">
+						<h3
+							class="mt-4 font-['Space_Grotesk'] text-2xl font-semibold text-slate-900 sm:text-3xl"
+						>
 							{feature.title}
 						</h3>
-						<p class="mt-3 font-['DM_Sans'] text-sm leading-relaxed text-white/70">
+						<p class="mt-3 font-['DM_Sans'] text-sm leading-relaxed text-slate-600">
 							{feature.description}
 						</p>
 					</article>
 				{/each}
 			</div>
 			<div class="space-y-8">
-				<div class="rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl">
-					<span class="font-['DM_Sans'] text-xs tracking-[0.32em] text-white/60 uppercase"
+				<div class="rounded-3xl border border-slate-200 bg-white p-8 shadow-lg shadow-slate-300/40">
+					<span class="font-['DM_Sans'] text-xs tracking-[0.32em] text-slate-500 uppercase"
 						>Editorial</span
 					>
-					<h3 class="mt-4 font-['Space_Grotesk'] text-2xl font-semibold text-white">
+					<h3 class="mt-4 font-['Space_Grotesk'] text-2xl font-semibold text-slate-900">
 						Tres líneas que guían nuestra mirada.
 					</h3>
 					<div class="mt-8 space-y-6">
 						{#each editorialNotes as note (note.title)}
 							<div
-								class="rounded-2xl border border-white/10 bg-slate-950/40 p-6"
-								style={`box-shadow: 0 14px 30px -24px ${note.accent}cc;`}
+								class="rounded-2xl border border-slate-200 bg-[#f5efe6] p-6"
+								style={`box-shadow: 0 14px 30px -24px ${note.accent}55;`}
 							>
 								<span
-									class="inline-flex items-center gap-2 rounded-full border border-white/10 px-3 py-1 text-xs font-medium text-white/70"
+									class="inline-flex items-center gap-2 rounded-full border border-slate-200 px-3 py-1 text-xs font-medium text-slate-600"
 									style={`background:${note.accent}1a;`}
 								>
 									<span class="h-2 w-2 rounded-full" style={`background:${note.accent}`}></span>
 									{note.title}
 								</span>
-								<p class="mt-4 font-['DM_Sans'] text-sm leading-relaxed text-white/70">
+								<p class="mt-4 font-['DM_Sans'] text-sm leading-relaxed text-slate-600">
 									{note.description}
 								</p>
 							</div>
@@ -295,18 +290,18 @@
 					</div>
 				</div>
 				<div
-					class="rounded-3xl border border-white/10 bg-gradient-to-br from-white/10 via-white/20 to-white/10 p-8 text-center backdrop-blur-xl"
+					class="rounded-3xl border border-slate-200 bg-[#f5efe6] p-8 text-center shadow-lg shadow-slate-300/40"
 				>
-					<h3 class="font-['Space_Grotesk'] text-2xl font-semibold text-white">
+					<h3 class="font-['Space_Grotesk'] text-2xl font-semibold text-slate-900">
 						Sumate a nuestra comunidad
 					</h3>
-					<p class="mt-3 font-['DM_Sans'] text-sm leading-relaxed text-white/70">
+					<p class="mt-3 font-['DM_Sans'] text-sm leading-relaxed text-slate-600">
 						Recibí adelantos, materiales descargables y convocatorias abiertas para participar en
 						nuestras coberturas colaborativas.
 					</p>
 					<a
 						href="/newsletter"
-						class="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-white px-6 py-3 text-xs font-semibold tracking-[0.28em] text-slate-900 uppercase transition hover:bg-slate-100"
+						class="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-slate-900 px-6 py-3 text-xs font-semibold tracking-[0.28em] text-white uppercase transition hover:bg-slate-700"
 					>
 						Suscribirme
 						<svg
